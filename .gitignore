@@ -164,6 +164,9 @@ AppPackages/
 sql/
 *.Cache
 ClientBin/
+bin_debug/
+bin_release/
+cmake-*
 [Ss]tyle[Cc]op.*
 ~$*
 *~
@@ -234,3 +237,6 @@ data/textures/**
 data/README_asset_pack.md
 data/font*.*
 data/roboto*.*
+
+.vscode/compile_commands.json
+.idea
